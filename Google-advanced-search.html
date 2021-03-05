@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Google advanced search
+        </title>
+    </head>
+    <style>
+    .page-addr {
+           position:absolute;
+           right:10px;
+           font-family: Arial, Helvetica, sans-serif;
+        }
+    form
+    {
+        margin-left:20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        margin-left:20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #btn-search{
+        margin-top:5px ;
+        border-radius: 3px;
+        background-color: #006fd8;
+        color:white;
+        font-family: Arial;
+        font-weight: bold;
+        padding: 6px 10px 6px  10px;
+        margin-left: 40%;
+        float: right;
+    }
+    #btn-search:hover{
+        background-color: #005bb1;
+    }
+    input[type=text]{
+        float: right;;
+        width: 70%;
+        padding: 5px;
+
+    }
+    p{
+        font-size: 14px;
+    }
+    </style>
+    <div ><img style="width:100px;margin-left:15px;" src="img\domus-01-google.jpg"><a style="margin-top:5px;"class="page-addr" href="Google-search.html">Google search</a></div>
+    
+    <body>
+        <h3 style="color:red">Advanced search</h3>
+        <h3 style="font-weight: 100;">Find pages with...</h3>
+        <form style="width :80%" action="https://www.google.com/search">
+                <label>all these words:</label><input type="text" name="as_q"/><br><br><br>
+                <label>this exact word or phrase:</label><input type="text" name="as_epq"><br><br><br>
+                <label>of these words:</label><input type="text" name="as_oq"><br><br><br>
+                <label>none of these words:</label><input type="text" name="as_eq"><br><br><br>
+                <input id="btn-search" type="submit" value="Advanced Search"/>
+        </form>
+    </body>
+</html>
